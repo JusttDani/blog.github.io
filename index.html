@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dani Dev - Blog Personal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Dani.Dev</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>¡Hola! Soy Dani</h2>
+            <p>Desarrollador Full Stack apasionado por crear soluciones innovadoras</p>
+            <a href="#proyectos" class="cta-button">Ver mis proyectos</a>
+        </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <h2>Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Soy un desarrollador con más de 3 años de experiencia en el mundo de la programación. Me especializo en JavaScript, Python y React, aunque siempre estoy aprendiendo nuevas tecnologías.</p>
+                    <p>Mi pasión es resolver problemas complejos con código limpio y eficiente. Cuando no estoy programando, me gusta contribuir a proyectos open source y escribir sobre mis experiencias en el desarrollo.</p>
+                </div>
+                <div class="skills">
+                    <h3>Tecnologías que manejo:</h3>
+                    <ul>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React.js & Next.js</li>
+                        <li>Node.js & Express</li>
+                        <li>Python & Django</li>
+                        <li>MongoDB & PostgreSQL</li>
+                        <li>Git & GitHub</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <h2>Mis Proyectos</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <h3>E-commerce React</h3>
+                    <p>Una tienda online completa desarrollada con React y Node.js, incluyendo carrito de compras, pasarela de pagos y panel administrativo.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/dani/ecommerce-react" target="_blank">GitHub</a>
+                        <a href="https://dani-ecommerce.netlify.app" target="_blank">Demo</a>
+                    </div>
+                    <div class="tech-stack">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <h3>API REST con Python</h3>
+                    <p>API robusta para gestión de tareas con autenticación JWT, documentación Swagger y tests automatizados.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/dani/task-api" target="_blank">GitHub</a>
+                        <a href="https://dani-task-api.herokuapp.com" target="_blank">API</a>
+                    </div>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>Django</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <h3>Dashboard Analytics</h3>
+                    <p>Panel de control interactivo para visualización de datos con gráficos en tiempo real y filtros avanzados.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/dani/analytics-dashboard" target="_blank">GitHub</a>
+                        <a href="https://dani-dashboard.vercel.app" target="_blank">Demo</a>
+                    </div>
+                    <div class="tech-stack">
+                        <span>Vue.js</span>
+                        <span>Chart.js</span>
+                        <span>Firebase</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2>Últimos Posts del Blog</h2>
+            <div class="blog-grid">
+                <article class="blog-post">
+                    <div class="post-date">15 Sep 2025</div>
+                    <h3><a href="#post1">Optimización de React: Técnicas avanzadas para mejorar el rendimiento</a></h3>
+                    <p>Exploramos técnicas como React.memo, useMemo, useCallback y lazy loading para crear aplicaciones más rápidas y eficientes.</p>
+                    <a href="#post1" class="read-more">Leer más →</a>
+                </article>
+
+                <article class="blog-post">
+                    <div class="post-date">08 Sep 2025</div>
+                    <h3><a href="#post2">Mi experiencia migrando de JavaScript a TypeScript</a></h3>
+                    <p>Los beneficios, desafíos y lecciones aprendidas durante la migración de un proyecto grande a TypeScript.</p>
+                    <a href="#post2" class="read-more">Leer más →</a>
+                </article>
+
+                <article class="blog-post">
+                    <div class="post-date">01 Sep 2025</div>
+                    <h3><a href="#post3">Construyendo APIs escalables con Node.js y Express</a></h3>
+                    <p>Mejores prácticas para estructurar y escalar APIs REST, incluyendo middleware, manejo de errores y testing.</p>
+                    <a href="#post3" class="read-more">Leer más →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experience">
+        <div class="container">
+            <h2>Experiencia Profesional</h2>
+            <table class="experience-table">
+                <thead>
+                    <tr>
+                        <th>Empresa</th>
+                        <th>Puesto</th>
+                        <th>Período</th>
+                        <th>Tecnologías</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>TechCorp Solutions</td>
+                        <td>Full Stack Developer</td>
+                        <td>2023 - Presente</td>
+                        <td>React, Node.js, AWS</td>
+                    </tr>
+                    <tr>
+                        <td>StartupXYZ</td>
+                        <td>Frontend Developer</td>
+                        <td>2022 - 2023</td>
+                        <td>Vue.js, Tailwind CSS</td>
+                    </tr>
+                    <tr>
+                        <td>DevAgency</td>
+                        <td>Junior Developer</td>
+                        <td>2021 - 2022</td>
+                        <td>JavaScript, PHP, MySQL</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>¡Hablemos!</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    <div class="contact-item">
+                        <strong>Email:</strong> 
+                        <a href="mailto:dani@danidev.com">dani@danidev.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>LinkedIn:</strong> 
+                        <a href="https://linkedin.com/in/dani-programmer" target="_blank">linkedin.com/in/dani-programmer</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>GitHub:</strong> 
+                        <a href="https://github.com/dani-dev" target="_blank">github.com/dani-dev</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Twitter:</strong> 
+                        <a href="https://twitter.com/dani_codes" target="_blank">@dani_codes</a>
+                    </div>
+                </div>
+
+                <form class="contact-form" action="#" method="POST">
+                    <h3>Envíame un mensaje</h3>
+                    <div class="form-group">
+                        <label for="nombre">Nombre *</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="empresa">Empresa</label>
+                        <input type="text" id="empresa" name="empresa">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="tipo">Tipo de proyecto</label>
+                        <select id="tipo" name="tipo">
+                            <option value="">Selecciona una opción</option>
+                            <option value="web">Desarrollo Web</option>
+                            <option value="mobile">Aplicación Móvil</option>
+                            <option value="api">API/Backend</option>
+                            <option value="consultoria">Consultoría</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje *</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Cuéntame sobre tu proyecto..."></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="newsletter" value="si">
+                            Quiero recibir actualizaciones sobre nuevos posts y proyectos
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Dani.Dev</h3>
+                    <p>Desarrollador Full Stack creando soluciones web innovadoras.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#sobre-mi">Sobre Mí</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Sígueme</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/dani-dev" target="_blank">GitHub</a>
+                        <a href="https://linkedin.com/in/dani-programmer" target="_blank">LinkedIn</a>
+                        <a href="https://twitter.com/dani_codes" target="_blank">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dani.Dev - Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling para los enlaces de navegación
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Formulario de contacto
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('¡Gracias por tu mensaje! Te responderé pronto.');
+            this.reset();
+        });
+
+        // Navegación sticky
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.backgroundColor = 'rgba(255, 255, 255, 0.95)';
+                header.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
+            } else {
+                header.style.backgroundColor = 'transparent';
+                header.style.boxShadow = 'none';
+            }
+        });
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            transition: all 0.3s ease;
+            background: transparent;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+        }
+
+        .logo h1 {
+            color: #2563eb;
+            font-size: 1.8rem;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-menu a:hover {
+            color: #2563eb;
+        }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero-content h2 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero-content p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #fff;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: transform 0.3s ease;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+        }
+
+        /* Sections */
+        section {
+            padding: 80px 0;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            color: #2563eb;
+        }
+
+        /* About */
+        .about-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 3rem;
+            margin-top: 2rem;
+        }
+
+        .about-text p {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .skills ul {
+            list-style: none;
+        }
+
+        .skills li {
+            background: #f8f9fa;
+            padding: 8px 15px;
+            margin: 5px 0;
+            border-left: 3px solid #2563eb;
+        }
+
+        /* Projects */
+        .projects {
+            background: #f8f9fa;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .project-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .project-links {
+            margin: 1rem 0;
+        }
+
+        .project-links a {
+            display: inline-block;
+            padding: 8px 15px;
+            margin-right: 10px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+
+        .tech-stack {
+            margin-top: 1rem;
+        }
+
+        .tech-stack span {
+            display: inline-block;
+            background: #e3f2fd;
+            color: #1565c0;
+            padding: 4px 12px;
+            margin: 2px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+        }
+
+        /* Blog */
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .blog-post {
+            padding: 1.5rem;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .blog-post:hover {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .post-date {
+            color: #6c757d;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .blog-post h3 a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .read-more {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        /* Experience Table */
+        .experience {
+            background: #f8f9fa;
+        }
+
+        .experience-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 2rem;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .experience-table th,
+        .experience-table td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .experience-table th {
+            background: #2563eb;
+            color: white;
+            font-weight: 600;
+        }
+
+        .experience-table tr:hover {
+            background: #f8f9fa;
+        }
+
+        /* Contact */
+        .contact-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            margin-top: 2rem;
+        }
+
+        .contact-item {
+            margin-bottom: 1rem;
+        }
+
+        .contact-item a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        .contact-form {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 10px;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .checkbox-label {
+            display: flex !important;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .checkbox-label input {
+            width: auto !important;
+        }
+
+        .submit-btn {
+            background: #2563eb;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            background: #1d4ed8;
+        }
+
+        /* Footer */
+        footer {
+            background: #1a1a1a;
+            color: white;
+            padding: 3rem 0 1rem;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3,
+        .footer-section h4 {
+            margin-bottom: 1rem;
+            color: #2563eb;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section a {
+            color: #ccc;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: #2563eb;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid #333;
+            color: #888;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-menu {
+                display: none;
+            }
+
+            .hero-content h2 {
+                font-size: 2.5rem;
+            }
+
+            .about-content {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-content {
+                grid-template-columns: 1fr;
+            }
+
+            .experience-table {
+                font-size: 0.9rem;
+            }
+
+            .experience-table th,
+            .experience-table td {
+                padding: 0.5rem;
+            }
+        }
+    </style>
